@@ -1,0 +1,81 @@
+.body {
+  /* background-color: black;
+  color: white; */
+  margin: 1px 4%;
+}
+#dataContainer {
+  /* width: 100%; */
+
+  padding: 1%;
+}
+
+.cardContainer {
+  width: 100%;
+  display: flex;
+  gap: 1%;
+}
+.dataCard {
+  border: violet solid 1px;
+}
+.poster {
+  width: 100%;
+}
+.poster > img {
+  /* border: hotpink solid 1px; */
+  width: 200px;
+}
+.posterData {
+  padding: 5%;
+}
+.rating {
+  display: flex;
+  gap: 50px;
+  /* border: olive 1px solid; */
+}
+.ratingT {
+  display: flex;
+}
+.ratingT > p {
+  margin: 2px;
+  font-size: 20px;
+}
+.arow{
+
+  margin-top: 2px;
+}
+.rating > button {
+  border: none;
+}
+
+.title {
+  /* border: green 1px solid; */
+  width: 200px;
+  height: 50px;
+  overflow: hidden;
+}
+.title > h4 {
+  margin: 5% 0%;
+}
+
+.posterBtn {
+  border: none;
+  margin: 5% 0%;
+  padding: 3%;
+  width: 100%;
+  color: blue;
+  background-color: gray;
+}
+
+.text {
+  justify-content: center;
+}
+
+#bck {
+  position: relative;
+  top: -330px;
+}
+#fwd {
+  position: relative;
+  top: -330px;
+  right: -1200px;
+}
