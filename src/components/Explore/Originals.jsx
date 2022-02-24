@@ -5,7 +5,7 @@ import "./style.css";
 import { useEffect } from "react";
 import ChevronRightOutlinedIcon from '@mui/icons-material/ChevronRightOutlined';
 
-function Crousel() {
+function Originals() {
     const [active, setaAtive] = useState(0);
     const [activeItemIndex, setActiveItemIndex] = useState(0);
     const [coming, setcoming] = useState([]);
@@ -16,12 +16,18 @@ function Crousel() {
     }, [])
 
     const getData = () => {
-        fetch("http://localhost:3001/originals")
+        fetch("https://secure-tor-86460.herokuapp.com/Poster")
             .then((res) => res.json())
             .then((data) => {
-                console.log(data)
+                console.log("data.editor",data)
+                {
+                    data.map((e) => {
+                        setcoming(e.originals);
+                    })
+                }
 
-                setcoming(data)
+                //setcoming(data)
+                console.log("coming",coming);
             })
     }
 
@@ -60,4 +66,4 @@ function Crousel() {
     )
 }
 
-export default Crousel;
+export default Originals;

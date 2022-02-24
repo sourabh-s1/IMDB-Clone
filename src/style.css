@@ -15,7 +15,8 @@
   gap: 1%;
 }
 .dataCard {
-  border: violet solid 1px;
+  /*border: violet solid 1px;*/
+  background-color: rgb(53, 53, 53);
 }
 .poster {
   width: 100%;

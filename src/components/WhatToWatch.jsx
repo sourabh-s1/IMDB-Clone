@@ -3,6 +3,11 @@ import { TopPicks } from "./TopPicks";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "@mui/material";
 import "../style.css";
+import Crousel from "./Explore/Crousel";
+import Editor from "./Explore/Editor";
+import News from "./Explore/News";
+import Originals from "./Explore/Originals";
+import {TopBox} from "./Explore/Topbox";
 
 export const WhatToWatch = () => {
   return (
@@ -16,6 +21,11 @@ export const WhatToWatch = () => {
       </div>
       <TopPicks />
       <FanFavorites />
+      <Crousel/>
+      <Editor/>
+      <News/>
+      <Originals/>
+      <TopBox />
     </>
   );
 };

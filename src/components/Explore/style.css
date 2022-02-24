@@ -23,8 +23,8 @@ a:hover {
 }
 
 .crousel_img {
-    width: 440px;
-    height: 250px;
+    width: 240px;
+    height: 350px;
 }
 
 .editor_img {
@@ -39,7 +39,7 @@ a:hover {
 
 .editor_txt {
     text-align: left;
-    margin-left: 4%;
+    margin-left: 1%;
     margin-top: 5px;
     font-size: 17px;
 }

@@ -16,7 +16,7 @@ function Crousel() {
     }, [])
 
     const getData = () => {
-        fetch("http://localhost:3001/coming")
+        fetch("https://secure-tor-86460.herokuapp.com/ComingSoon")
             .then((res) => res.json())
             .then((data) => {
                 console.log(data)

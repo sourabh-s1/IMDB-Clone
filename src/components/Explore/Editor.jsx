@@ -5,7 +5,7 @@ import "./style.css";
 import { useEffect } from "react";
 import ChevronRightOutlinedIcon from '@mui/icons-material/ChevronRightOutlined';
 
-function Crousel() {
+function Editor() {
     const [active, setaAtive] = useState(0);
     const [activeItemIndex, setActiveItemIndex] = useState(0);
     const [coming, setcoming] = useState([]);
@@ -16,12 +16,18 @@ function Crousel() {
     }, [])
 
     const getData = () => {
-        fetch("http://localhost:3001/editor")
+        fetch("https://secure-tor-86460.herokuapp.com/Poster")
             .then((res) => res.json())
             .then((data) => {
-                console.log(data)
+                console.log("data.editor",data)
+                {
+                    data.map((e) => {
+                        setcoming(e.editor);
+                    })
+                }
 
-                setcoming(data)
+                //setcoming(data)
+                console.log("coming",coming);
             })
     }
 
@@ -41,7 +47,7 @@ function Crousel() {
                     outsideChevron
                     chevronWidth={chevronWidth}
                 >
-                    {coming.map((e) => (
+                    {coming ? coming.map((e) => (
                         <div>
                             <a href={e.link} target="_blank">
                                 <div className="crousel" style={{ width: 440, height: 300, background: '#000' }}>
@@ -56,11 +62,11 @@ function Crousel() {
                                 </div>
                             </a>
                         </div>
-                    ))}
+                    )) : null }
                 </ItemsCarousel>
             </div>
         </div>
     )
 }
 
-export default Crousel;
+export default Editor;
