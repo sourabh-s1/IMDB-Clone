@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import {Link} from "react-router-dom"
 import "../style.css";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
@@ -45,9 +46,11 @@ export const FanFavorites = () => {
       <div className="cardContainer">
         {data.map((e, i) => (
           <div className="dataCard" key={i}>
+            <Link to={{ pathname: `/${e.id}`}}>
             <div className="poster">
               <img src={e.image} />
             </div>
+            </Link>
             <div className="posterData">
               <div className="rating">
                 <div className="ratingT">

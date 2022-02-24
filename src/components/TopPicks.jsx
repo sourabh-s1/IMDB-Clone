@@ -61,9 +61,11 @@ export const TopPicks = () => {
       {data.map((e, i) => (
 
           <div className="dataCard" key={i}>
+            <Link to={{ pathname: `/${e.id}`}}>
             <div className="poster">
               <img src={e.image} />
             </div>
+            </Link>
             <div className="posterData">
               <div className="rating">
                 <div className="ratingT">
@@ -102,7 +104,7 @@ export const TopPicks = () => {
               </div>
             </div>
           </div>
-          
+
         ))}
       </div>
 
