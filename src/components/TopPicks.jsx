@@ -18,6 +18,7 @@ export const TopPicks = () => {
   const [movieData, setMovieData] = useState([]);
   const [page, setPage] = useState(1);
   const [count, setCount] = useState();
+  const [wishlist,setWishlist] = useState([]);
 
   let limit = 6;
   useEffect(() => {
@@ -43,6 +44,17 @@ export const TopPicks = () => {
         console.log(data);
       });
   }
+  function addToWishlist(data) {
+    console.log("data",data);
+    axios.post('https://secure-tor-86460.herokuapp.com/Wishlist', {data} )
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+  }
+
   function dataNew(page) {
     setTempdata([])
     for(let i = ((page * limit)-limit); i <= page*limit; i++ ){
@@ -72,7 +84,7 @@ export const TopPicks = () => {
                   <StarIcon sx={{ color: "#ffc400" }} />
                   <p>{e.imDbRating}</p>
                 </div>
-                <button>
+                <button onClick={() => {addToWishlist(e)}}>
                   <StarBorderIcon />
                 </button>
               </div>
