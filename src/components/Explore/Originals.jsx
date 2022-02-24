@@ -16,18 +16,10 @@ function Originals() {
     }, [])
 
     const getData = () => {
-        fetch("https://secure-tor-86460.herokuapp.com/Poster")
+        fetch("https://secure-tor-86460.herokuapp.com/ImdbOriginals")
             .then((res) => res.json())
             .then((data) => {
-                console.log("data.editor",data)
-                {
-                    data.map((e) => {
-                        setcoming(e.originals);
-                    })
-                }
-
-                //setcoming(data)
-                console.log("coming",coming);
+                setcoming(data);
             })
     }
 

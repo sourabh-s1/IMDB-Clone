@@ -16,18 +16,11 @@ function Editor() {
     }, [])
 
     const getData = () => {
-        fetch("https://secure-tor-86460.herokuapp.com/Poster")
+        fetch("https://secure-tor-86460.herokuapp.com/Editor")
             .then((res) => res.json())
             .then((data) => {
-                console.log("data.editor",data)
-                {
-                    data.map((e) => {
-                        setcoming(e.editor);
-                    })
-                }
-
+                setcoming(data)
                 //setcoming(data)
-                console.log("coming",coming);
             })
     }
 

@@ -21,7 +21,7 @@ export const TopBox = () => {
     }, [])
 
     const getData = () => {
-        fetch("https://secure-tor-86460.herokuapp.com/YouTubeTrailers")
+        fetch("https://secure-tor-86460.herokuapp.com/BoxOffice")
             .then((res) => res.json())
             .then((data) => {
                 //console.log("data.editor",data)
