@@ -1,0 +1,569 @@
+{
+    "coming": [
+        {
+            "id": "tt1877830",
+            "title": "The Batman",
+            "fullTitle": "The Batman (2022)",
+            "year": "2022",
+            "releaseState": "March 4",
+            "image": "https://m.media-amazon.com/images/M/MV5BOTMyMGE0ZmUtNTMzMi00MGQxLTgxMmMtZDQ0MmU4OWEyNDY1XkEyXkFqcGdeQWpnYW1i._V1_.jpg",
+            "runtimeMins": "175",
+            "runtimeStr": "2h 55mins",
+            "plot": "When the Riddler, a sadistic serial killer, begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+            "contentRating": "PG-13",
+            "imDbRating": "",
+            "imDbRatingCount": "",
+            "metacriticRating": "",
+            "genres": "Action, Crime, Drama, Mystery",
+            "genreList": [
+                {
+                    "key": "Action",
+                    "value": "Action"
+                },
+                {
+                    "key": "Crime",
+                    "value": "Crime"
+                },
+                {
+                    "key": "Drama",
+                    "value": "Drama"
+                },
+                {
+                    "key": "Mystery",
+                    "value": "Mystery"
+                }
+            ],
+            "directors": "Matt Reeves",
+            "directorList": [
+                {
+                    "id": "nm0716257",
+                    "name": "Matt Reeves"
+                }
+            ],
+            "stars": "Zoë Kravitz, Robert Pattinson, Barry Keoghan, Paul Dano",
+            "starList": [
+                {
+                    "id": "nm2368789",
+                    "name": "Zoë Kravitz"
+                },
+                {
+                    "id": "nm1500155",
+                    "name": "Robert Pattinson"
+                },
+                {
+                    "id": "nm4422686",
+                    "name": "Barry Keoghan"
+                },
+                {
+                    "id": "nm0200452",
+                    "name": "Paul Dano"
+                }
+            ]
+        },
+        {
+            "id": "tt5151570",
+            "title": "Mrs Harris Goes to Paris",
+            "fullTitle": "Mrs Harris Goes to Paris (2022)",
+            "year": "2022",
+            "releaseState": "March 4",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjM1ZjIyYzYtODRhYy00ZTc0LThhZjMtNzhmZGM3OWJkNzFkXkEyXkFqcGdeQXVyMjQ4NjAyOTY@._V1_UX128_CR0,1,128,176_AL_.jpg",
+            "runtimeMins": "",
+            "runtimeStr": "",
+            "plot": "A widowed cleaning lady in 1950s London falls madly in love with a couture Dior dress, and decides that she must have one of her own.",
+            "contentRating": "PG",
+            "imDbRating": "",
+            "imDbRatingCount": "",
+            "metacriticRating": "",
+            "genres": "Drama",
+            "genreList": [
+                {
+                    "key": "Drama",
+                    "value": "Drama"
+                }
+            ],
+            "directors": "Anthony Fabian",
+            "directorList": [
+                {
+                    "id": "nm0003745",
+                    "name": "Anthony Fabian"
+                }
+            ],
+            "stars": "Rose Williams, Jason Isaacs, Lucas Bravo, Lesley Manville",
+            "starList": [
+                {
+                    "id": "nm6216593",
+                    "name": "Rose Williams"
+                },
+                {
+                    "id": "nm0005042",
+                    "name": "Jason Isaacs"
+                },
+                {
+                    "id": "nm5575725",
+                    "name": "Lucas Bravo"
+                },
+                {
+                    "id": "nm0544334",
+                    "name": "Lesley Manville"
+                }
+            ]
+        },
+        {
+            "id": "tt11703710",
+            "title": "Downton Abbey: A New Era",
+            "fullTitle": "Downton Abbey: A New Era (2022)",
+            "year": "2022",
+            "releaseState": "March 18",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjliOTRiNmEtZWJhOS00NzkxLWJjNDctNTE4ZjlkN2M0YTU5XkEyXkFqcGdeQWpnYW1i._V1_.jpg",
+            "runtimeMins": "",
+            "runtimeStr": "",
+            "plot": "Follow-up to the 2019 feature film in which the Crawley family and Downton staff received a royal visit from the King and Queen of Great Britain.",
+            "contentRating": "PG",
+            "imDbRating": "",
+            "imDbRatingCount": "",
+            "metacriticRating": "",
+            "genres": "Drama, Romance",
+            "genreList": [
+                {
+                    "key": "Drama",
+                    "value": "Drama"
+                },
+                {
+                    "key": "Romance",
+                    "value": "Romance"
+                }
+            ],
+            "directors": "Simon Curtis",
+            "directorList": [
+                {
+                    "id": "nm0193508",
+                    "name": "Simon Curtis"
+                }
+            ],
+            "stars": "Maggie Smith, Michelle Dockery, Laura Haddock, Hugh Dancy",
+            "starList": [
+                {
+                    "id": "nm0001749",
+                    "name": "Maggie Smith"
+                },
+                {
+                    "id": "nm1890784",
+                    "name": "Michelle Dockery"
+                },
+                {
+                    "id": "nm2652095",
+                    "name": "Laura Haddock"
+                },
+                {
+                    "id": "nm0199215",
+                    "name": "Hugh Dancy"
+                }
+            ]
+        },
+        {
+            "id": "tt12447796",
+            "title": "Unwelcome",
+            "fullTitle": "Unwelcome (2022)",
+            "year": "2022",
+            "releaseState": "March 18",
+            "image": "https://m.media-amazon.com/images/M/MV5BMzhiMGM5YTktOTlkNS00MmQ5LTg5NTUtYzg3ODVjN2VmMjAzXkEyXkFqcGdeQXVyMTAxNDE3MTE5._V1_UX128_CR0,4,128,176_AL_.jpg",
+            "runtimeMins": "",
+            "runtimeStr": "",
+            "plot": "Londoners Maya and Jamie who escape their urban nightmare to the tranquility of rural Ireland only to discover malevolent, murderous goblins lurking in the gnarled, ancient wood at the foot of their new garden.",
+            "contentRating": "R",
+            "imDbRating": "",
+            "imDbRatingCount": "",
+            "metacriticRating": "",
+            "genres": "Horror",
+            "genreList": [
+                {
+                    "key": "Horror",
+                    "value": "Horror"
+                }
+            ],
+            "directors": "Jon Wright",
+            "directorList": [
+                {
+                    "id": "nm1229323",
+                    "name": "Jon Wright"
+                }
+            ],
+            "stars": "Hannah John-Kamen, Douglas Booth, Colm Meaney, Jamie-Lee O'Donnell",
+            "starList": [
+                {
+                    "id": "nm4789912",
+                    "name": "Hannah John-Kamen"
+                },
+                {
+                    "id": "nm3150488",
+                    "name": "Douglas Booth"
+                },
+                {
+                    "id": "nm0000538",
+                    "name": "Colm Meaney"
+                },
+                {
+                    "id": "nm5324035",
+                    "name": "Jamie-Lee O'Donnell"
+                }
+            ]
+        },
+        {
+            "id": "tt5181260",
+            "title": "The Unbreakable Boy",
+            "fullTitle": "The Unbreakable Boy (2022)",
+            "year": "2022",
+            "releaseState": "March 18",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjFkMGNkMDEtNDdjYy00YjYwLTk3MjMtNGI2NTAyM2ZmMWY3XkEyXkFqcGdeQXVyMTMwMDA5ODU3._V1_UY176_CR6,0,128,176_AL_.jpg",
+            "runtimeMins": "",
+            "runtimeStr": "",
+            "plot": "A young boy with both a rare brittle-bone disease and autism. But what makes him truly unique is his joyous, funny, life-affirming world view that transforms and unites everyone around him.",
+            "contentRating": "PG",
+            "imDbRating": "",
+            "imDbRatingCount": "",
+            "metacriticRating": "",
+            "genres": "Drama",
+            "genreList": [
+                {
+                    "key": "Drama",
+                    "value": "Drama"
+                }
+            ],
+            "directors": "Jon Gunn",
+            "directorList": [
+                {
+                    "id": "nm0348197",
+                    "name": "Jon Gunn"
+                }
+            ],
+            "stars": "Zachary Levi, Amy Acker, Peter Facinelli, Patricia Heaton",
+            "starList": [
+                {
+                    "id": "nm1157048",
+                    "name": "Zachary Levi"
+                },
+                {
+                    "id": "nm0009918",
+                    "name": "Amy Acker"
+                },
+                {
+                    "id": "nm0004906",
+                    "name": "Peter Facinelli"
+                },
+                {
+                    "id": "nm0005004",
+                    "name": "Patricia Heaton"
+                }
+            ]
+        },
+        {
+            "id": "tt13320622",
+            "title": "The Lost City",
+            "fullTitle": "The Lost City (2022)",
+            "year": "2022",
+            "releaseState": "March 25",
+            "image": "https://m.media-amazon.com/images/M/MV5BMmIwYzFhODAtY2I1YS00ZDdmLTkyYWQtZjI5NDIwMDc2MjEyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX128_CR0,4,128,176_AL_.jpg",
+            "runtimeMins": "92",
+            "runtimeStr": "1h 32mins",
+            "plot": "A reclusive romance novelist on a book tour with her cover model gets swept up in a kidnapping attempt that lands them both in a cutthroat jungle adventure.",
+            "contentRating": "",
+            "imDbRating": "",
+            "imDbRatingCount": "",
+            "metacriticRating": "",
+            "genres": "Action, Adventure, Comedy",
+            "genreList": [
+                {
+                    "key": "Action",
+                    "value": "Action"
+                },
+                {
+                    "key": "Adventure",
+                    "value": "Adventure"
+                },
+                {
+                    "key": "Comedy",
+                    "value": "Comedy"
+                }
+            ],
+            "directors": "Aaron Nee, Adam Nee",
+            "directorList": [
+                {
+                    "id": "nm1887480",
+                    "name": "Aaron Nee"
+                },
+                {
+                    "id": "nm1519639",
+                    "name": "Adam Nee"
+                }
+            ],
+            "stars": "Sandra Bullock, Brad Pitt, Channing Tatum, Daniel Radcliffe",
+            "starList": [
+                {
+                    "id": "nm0000113",
+                    "name": "Sandra Bullock"
+                },
+                {
+                    "id": "nm0000093",
+                    "name": "Brad Pitt"
+                },
+                {
+                    "id": "nm1475594",
+                    "name": "Channing Tatum"
+                },
+                {
+                    "id": "nm0705356",
+                    "name": "Daniel Radcliffe"
+                }
+            ]
+        }
+    ],
+    "box": [
+        {
+            "id": "tt1464335",
+            "rank": "1",
+            "title": "Uncharted",
+            "image": "https://m.media-amazon.com/images/M/MV5BOTNkN2ZmMzItOTAwMy00MmM5LTg5YTgtNmE5MThkMDE2ODJiXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX128_CR0,3,128,176_AL_.jpg",
+            "weekend": "$44.2M",
+            "gross": "$44.2M",
+            "weeks": "1"
+        },
+        {
+            "id": "tt11252248",
+            "rank": "2",
+            "title": "Dog",
+            "image": "https://m.media-amazon.com/images/M/MV5BZDRiNDFmMGYtOWY3Ni00ZjUxLTkzZGYtODZiNmIxZGRiZTM4XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
+            "weekend": "$15.1M",
+            "gross": "$15.1M",
+            "weeks": "1"
+        },
+        {
+            "id": "tt10872600",
+            "rank": "3",
+            "title": "Spider-Man: No Way Home",
+            "image": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_UX128_CR0,3,128,176_AL_.jpg",
+            "weekend": "$7.7M",
+            "gross": "$770.6M",
+            "weeks": "10"
+        },
+        {
+            "id": "tt7657566",
+            "rank": "4",
+            "title": "Death on the Nile",
+            "image": "https://m.media-amazon.com/images/M/MV5BNjI4ZTQ1OTYtNTI0Yi00M2EyLThiNjMtMzk1MmZlOWMyMDQwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX128_CR0,3,128,176_AL_.jpg",
+            "weekend": "$6.3M",
+            "gross": "$25.0M",
+            "weeks": "2"
+        },
+        {
+            "id": "tt11466222",
+            "rank": "5",
+            "title": "Jackass Forever",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjY3OTBlODktYzliNS00Y2VkLWJhZjktZDcwY2E2YzhmOThhXkEyXkFqcGdeQXVyOTg4MDMxODM@._V1_UY176_CR6,0,128,176_AL_.jpg",
+            "weekend": "$5.2M",
+            "gross": "$46.8M",
+            "weeks": "3"
+        },
+        {
+            "id": "tt10223460",
+            "rank": "6",
+            "title": "Marry Me",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjczZjI2M2UtOGMwOS00YWFhLTg0OTYtZDY5ZWIwNjhlOWI2XkEyXkFqcGdeQXVyMTQzNTA5MzYz._V1_UX128_CR0,3,128,176_AL_.jpg",
+            "weekend": "$3.7M",
+            "gross": "$16.8M",
+            "weeks": "2"
+        },
+        {
+            "id": "tt6467266",
+            "rank": "7",
+            "title": "Sing 2",
+            "image": "https://m.media-amazon.com/images/M/MV5BMWRiZGQ1NDMtODQ2OS00MDlhLWJkZGYtM2ZmNjlhZThjOWRmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
+            "weekend": "$2.8M",
+            "gross": "$147.4M",
+            "weeks": "9"
+        },
+        {
+            "id": "tt11245972",
+            "rank": "8",
+            "title": "Scream",
+            "image": "https://m.media-amazon.com/images/M/MV5BM2E4ZGFmZTgtMDVkYS00ZTk0LWIzYWMtODk5OGVmYmEyMzEzXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX128_CR0,3,128,176_AL_.jpg",
+            "weekend": "$2.0M",
+            "gross": "$77.0M",
+            "weeks": "6"
+        },
+        {
+            "id": "tt14060094",
+            "rank": "9",
+            "title": "Blacklight",
+            "image": "https://m.media-amazon.com/images/M/MV5BY2ViYmNhNzEtZDJhNS00YzM4LTkzZWItZDJiNzc5ZDExOWZmXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX128_CR0,3,128,176_AL_.jpg",
+            "weekend": "$1.8M",
+            "gross": "$7.1M",
+            "weeks": "2"
+        },
+        {
+            "id": "tt9907782",
+            "rank": "10",
+            "title": "Eight for Silver",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjllNWFhZWUtN2NlNi00NDBmLWE5MjgtMGM3ZGQyNjk1NjQ5XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_UX128_CR0,3,128,176_AL_.jpg",
+            "weekend": "$1.7M",
+            "gross": "$1.7M",
+            "weeks": "1"
+        }
+    ],
+    "editor": [
+        {
+            "title": "Batman Stars",
+            "faclass": "fa fa-picture-o edit_i fa-2x",
+            "caption": "Photos",
+            "link": "https://www.imdb.com/gallery/rg878418688/?ref_=rg_mv_close",
+            "image1": "https://imdb-api.com/images/original/MV5BMTg4NzM5NDk0MV5BMl5BanBnXkFtZTcwNzAzMTUxNw@@._V1_Ratio0.7273_AL_.jpg",
+            "image2": "https://imdb-api.com/images/original/MV5BNzk0MDQ5OTUxMV5BMl5BanBnXkFtZTcwMDM5ODk5Mg@@._V1_Ratio0.7273_AL_.jpg",
+            "image3": "https://imdb-api.com/images/original/MV5BMTcyNzEzMjY4NV5BMl5BanBnXkFtZTgwOTMzOTA5MjI@._V1_Ratio0.7273_AL_.jpg"
+        },
+        {
+            "title": "Black Filmmakers",
+            "faclass": "fa fa-list edit_i fa-2x",
+            "caption": "List",
+            "link": "https://www.imdb.com/list/ls539998438/?ref_=hm_edcep_pks2_csegbhm_2_i",
+            "image1": "https://m.media-amazon.com/images/M/MV5BZDllZmM1YWItZDIzNC00MjVmLTk0MzMtYzJkM2MzOTI4ZjUzXkEyXkFqcGdeQXVyMTMyMDYyNTA0._V1_UY209_CR116,0,140,209_AL_.jpg",
+            "image2": "https://m.media-amazon.com/images/M/MV5BNTExODI4YzMtMzQxYi00NjhmLWJmOTEtYmYwODdhOGE1NTQyXkEyXkFqcGdeQXVyMTMyMDYyNTA0._V1_UY209_CR116,0,140,209_AL_.jpg",
+            "image3": "https://m.media-amazon.com/images/M/MV5BMDBiN2EzYzQtNjI4ZS00OGU1LWFmMjUtZmQ0ZDczZTYwNzdlXkEyXkFqcGdeQXVyMTMyMDYyNTA0._V1_UY209_CR116,0,140,209_AL_.jpg"
+        },
+        {
+            "title": "Essential Horror Films",
+            "faclass": "fa fa-list edit_i fa-2x",
+            "caption": "List",
+            "link": "https://www.imdb.com/list/ls534685277/?ref_=hm_edcep_pks_csegbhm_4_i",
+            "image1": "https://m.media-amazon.com/images/M/MV5BMTg1NzY3MzkwNl5BMl5BanBnXkFtZTgwMDgxMTY0MzE@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "image2": "https://m.media-amazon.com/images/M/MV5BNGM3N2VmNDQtNWMwNC00MDI5LThhNzYtNTlkZjkwZTJlNTRjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY209_CR1,0,140,209_AL_.jpg",
+            "image3": "https://m.media-amazon.com/images/M/MV5BYWJkNjM2ZjktNjMzNi00N2Y4LTg1ZWEtOGU4NWIyZjE0Yzc2XkEyXkFqcGdeQXVyNjMwMjk0MTQ@._V1_UX140_CR0,0,140,209_AL_.jpg"
+        },
+        {
+            "title": "TV and Streaming",
+            "faclass": "fa fa-list edit_i fa-2x",
+            "caption": "List",
+            "link": "https://www.imdb.com/list/ls534728274/?ref_=hm_edcep_pks_febtv_ft_1_i",
+            "image1": "https://m.media-amazon.com/images/M/MV5BNzQ4MWI2ZWMtYWIyNi00ZDcxLWEzMzUtOTUyNjY2NTBlYWIzXkEyXkFqcGdeQXVyMTM2Mzg4MA@@._V1_UY209_CR4,0,140,209_AL_.jpg",
+            "image2": "https://m.media-amazon.com/images/M/MV5BZjQwMmMyMWYtMGM2NS00NTJiLTg4YWYtM2E2NGIyMmMwZDhmXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY209_CR0,0,140,209_AL_.jpg",
+            "image3": "https://m.media-amazon.com/images/M/MV5BZDI5YTcyZDAtNDk1OC00YzFmLTk4ODctZmQyMDk1OGNmNDdlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY209_CR8,0,140,209_AL_.jpg"
+        },
+        {
+            "title": "What to watch : A celebration of Black SuperHeroes",
+            "faclass": "fa fa-list edit_i fa-2x",
+            "caption": "List",
+            "link": "https://www.imdb.com/list/ls532784106/?ref_=hm_edcep_pks_csegbhm_1_i",
+            "image1": "https://m.media-amazon.com/images/M/MV5BODNiODVmYjItM2MyMC00ZWQyLTgyMGYtNzJjMmVmZTY2OTJjXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_UY209_CR0,0,140,209_AL_.jpg",
+            "image2": "https://m.media-amazon.com/images/M/MV5BMTc0YTdhNTYtMjI1MC00ZDQwLTljNTMtNGI3ODRlYzhhM2FiXkEyXkFqcGdeQXVyNzE3ODQxNjU@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "image3": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_UY209_CR0,0,140,209_AL_.jpg"
+        },
+        {
+            "title": "Best Movies Featuring Black SuperHero",
+            "faclass": "fa fa-list edit_i fa-2x",
+            "caption": "List",
+            "link": "https://www.imdb.com/poll/rKZWsgMEuFU/?ref_=hm_edcep_pls_021922_3_i",
+            "image1": "https://m.media-amazon.com/images/M/MV5BMTc2Mzg5ODE1Nl5BMl5BanBnXkFtZTgwNTkyNTQ5MjI@._V1_QL75_UY428_CR26,0,760,428_.jpg",
+            "image2": "https://m.media-amazon.com/images/M/MV5BOTk2NDNjZWQtMGY0Mi00YTY2LWE5MzctMGRhZmNlYzljYTg5XkEyXkFqcGdeQXVyMTAyNjg4NjE0._V1_SX150_CR0,0,150,150_.jpg",
+            "image3": "https://m.media-amazon.com/images/M/MV5BMTgyMzc4ODU3NV5BMl5BanBnXkFtZTcwNjk5Mzc1MQ@@._V1_SX150_CR0,0,150,150_.jpg"
+        }
+    ],
+    "originals": [
+        {
+            "title": "Everything We Know About Future DC Movies & Series",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMWU5ZmQ4NTktODQ3ZS00YmU3LTgxYzItMzkyNDBkMzhkZTRjXkEyXkFqcGdeQWFsZWxvZw@@._V1_QL75_UX760_CR0,0,760,428_.jpg",
+            "link": "https://www.imdb.com/video/vi2792473369?listId=ls025720609&ref_=hm_edcio_org_brf_dceu_1_i",
+            "duration": "4:05"
+        },
+        {
+            "title": "Filmmaker Kasi Lemmons on the Directors Who Inspire Her",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMzkwOTkxOWQtZTQ0OS00NGVjLTkzNWYtNWNmMzBlNTJkNTZhXkEyXkFqcGdeQWplZmZscA@@._V1_QL75_UX760_CR0,0,760,428_.jpg",
+            "link": "https://www.imdb.com/video/vi671859481?listId=ls084858008&ref_=hm_edcio_org_ros_kasi_2_i",
+            "duration": "3:50"
+        },
+        {
+            "title": "Lauren Ridloff Receives the IMDb STARmeter Award",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BYTM4YWExZmQtY2ZmYS00MGU5LWExNmYtOWQ5OWM5Y2VlNWJhXkEyXkFqcGdeQWFsZWxvZw@@._V1_QL75_UX760_CR0,0,760,428_.jpg",
+            "link": "https://www.imdb.com/video/vi578208537?listId=ls025720609&ref_=hm_edcio_org_sm_ridloff_3_i",
+            "duration": "2:54"
+        },
+        {
+            "title": "Peter Dinklage on His Most Pivotal Roles",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BYmI5ZWRlMjUtOTI3ZC00OWIxLTk5MzEtNDRkMmZjY2ExYjgyXkEyXkFqcGdeQWpoZWZ0bGVy._V1_QL75_UX760_CR0,0,760,428_.jpg",
+            "link": "https://www.imdb.com/video/vi773440281?listId=ls025720609&ref_=hm_edcio_org_eg_dinklage_4_i",
+            "duration": "3:50"
+        },
+        {
+            "title": "The PeaceMaker Cast Promises an Epic Season Finale",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BNzE3MWIxNDgtYmUxMS00MjdkLTkyN2YtNzQwZTlhZjVmM2M0XkEyXkFqcGdeQWRlYm9yamE@._V1_QL75_UX760_CR0,0,760,428_.jpg",
+            "link": "https://www.imdb.com/video/vi3094725401?listId=ls025720609&ref_=hm_edcio_org_peace_jkt2_5_i",
+            "duration": "1:56"
+        },
+        {
+            "title": "A Celebration of Black Superheroes",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BYjA2MjgxNGEtYjliZC00YzI0LWJiN2EtMjEyZWNjZmM1Nzg0XkEyXkFqcGdeQW1pYnJ5YW50._V1_QL75_UX760_CR0,0,760,428_.jpg",
+            "link": "https://www.imdb.com/video/vi2936455961?listId=ls084858008&ref_=hm_edcio_org_sc_blacksupers_6_i",
+            "duration": "1:55"
+        },
+        {
+            "title": "The Rise of Tom Holland",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BYzBiZTRlMzAtZWIwZC00YjM3LTk5YTAtMTRkNmFhYjRjMTdiXkEyXkFqcGdeQXJoYW5uYWg@._V1_QL75_UX760_CR0,0,760,428_.jpg",
+            "link": "https://www.imdb.com/video/vi2742403865?listId=ls025720609&ref_=hm_edcio_org_nsp_tomholland_7_i",
+            "duration": "4:07"
+        },
+        {
+            "title": "Julia Garner Answers Our 6 Burning Questions",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjRjMjhlNmEtMTA1Yy00MTRiLThmMjktYzJjNWMzZDE3NjI2XkEyXkFqcGdeQWFybm8@._V1_QL75_UX760_CR0,0,760,428_.jpg",
+            "link": "https://www.imdb.com/video/vi2500772633?listId=ls025720609&ref_=hm_edcio_org_burnq_juliagarner_8_i",
+            "duration": "2:36"
+        },
+        {
+            "title": "The Rise of Gugu Mbatha-Raw",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BYWViNDQwYzAtM2NhNi00MmJmLWI3MjktYmJmYTFhODg4MjBhXkEyXkFqcGdeQWFybm8@._V1_QL75_UX760_CR0,0,760,428_.jpg",
+            "link": "https://www.imdb.com/video/vi1577763609?listId=ls084858008&ref_=hm_edcio_org_nsp_gugu_9_i",
+            "duration": "3:54"
+        },
+        {
+            "title": "'Uncharted' Stars Tom Holland & Mark Wahlberg Answer Fan Qs",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BNzdkYTJhYjgtZDkzYi00YjEwLTgyNWQtZjY2YzQwM2I5OWI1XkEyXkFqcGdeQWZlZGVyaWdh._V1_QL75_UX760_CR0,0,760,428_.jpg",
+            "link": "https://www.imdb.com/video/vi3910124313?listId=ls025720609&ref_=hm_edcio_org_fanq_uncharted_10_i",
+            "duration": "3:44"
+        },
+        {
+            "title": "Sebastian Stan and Lily James Answer Fan Questions",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BN2NjNjQ1NDctOGQwMy00YzQ3LTgyMmEtMDQwYTE3MDU3NDc3XkEyXkFqcGdeQWRlYm9yamE@._V1_QL75_UX760_CR0,0,760,428_.jpg",
+            "link": "https://www.imdb.com/video/vi4228039449?listId=ls025720609&ref_=hm_edcio_org_fanq_pamtom_11_i",
+            "duration": "3:23"
+        },
+        {
+            "title": "A Salute to Black Directors",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BZmNjNjAzM2ItMmM2Ny00YTVjLWIyZmUtMTY4NzQ5NzE3M2M0XkEyXkFqcGdeQW1pYnJ5YW50._V1_QL75_UX760_CR0,0,760,428_.jpg",
+            "link": "https://www.imdb.com/video/vi3699163417?listId=ls084858008&ref_=hm_edcio_org_sc_blackdir_12_i",
+            "duration": "4:16"
+        }
+    ],
+    "news": [
+        {
+            "image": "https://m.media-amazon.com/images/M/MV5BZmMyN2M2YWItNjJmMy00Yjk4LTg5YzMtOTA5ZjQ2N2IzN2ZmXkEyXkFqcGdeQXVyMTE0MzQwMjgz._V1_QL75_UY266_CR146,0,180,266_.jpg",
+            "text": "Tom Brady to Produce and Appear in ‘80 for Brady’ From Paramount Pictures, Endeavor Content",
+            "link" : "https://www.imdb.com/news/ni63543228/?ref_=hm_nw_tp_1"
+        },
+        {
+            "image": "https://m.media-amazon.com/images/M/MV5BNTliYjlkNDQtMjFlNS00NjgzLWFmMWEtYmM2Mzc2Zjg3ZjEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX180_CR0,0,180,266_.jpg",
+            "text": "‘Spider-Man,’ ‘Shang-Chi’ Top Critics Choice Super Award Nominations",
+            "link" : "https://www.imdb.com/news/ni63541811/?ref_=hm_nw_tp_2"
+        },
+        {
+            "image": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_QL75_UX180_CR0,0,180,266_.jpg",
+            "text": "Critics Choice Super Awards: ‘Spider-Man,’ ‘Justice League’ Among Film Nominees; ‘Evil,’ ‘Midnight Mass’ Lead TV",
+            "link" : "https://www.imdb.com/news/ni63541847/?ref_=hm_nw_tp_3"
+        },
+        {
+            "image": "https://m.media-amazon.com/images/M/MV5BY2M2YTM4OTgtMTlmMi00YjdlLThlZDctODdiNDRmMzE5ZGRkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX180_CR0,1,180,266_.jpg",
+            "text": "Will Smith, Jemele Hill, Stacey Abrams and Cicely Tyson Among First Wave of NAACP Image Award Winners",
+            "link" : "https://www.imdb.com/news/ni63541273/?ref_=hm_nw_tp_4"
+        },
+        {
+            "image": "https://m.media-amazon.com/images/M/MV5BYzM5YzQzYzUtNzJmNy00YjVlLTlmYmQtMmZiYmExNzRkNGY2XkEyXkFqcGdeQXVyMTE0MzQwMjgz._V1_QL75_UY266_CR146,0,180,266_.jpg",
+            "text": "European Film Academy Pledges Support to Ukraine Members, Explores Practical Help",
+            "link" : "https://www.imdb.com/news/ni63543916/?ref_=hm_nw_tp_5"
+        }
+    ]
+}
