@@ -1,0 +1,44 @@
+{data.map((e, i) => (
+          <div className="dataCard" key={i}>
+            <div className="poster">
+              <img src={e.image} />
+            </div>
+            <div className="posterData">
+              <div className="rating">
+                <div className="ratingT">
+                  <StarIcon sx={{ color: "#ffc400" }} />
+                  <p>{e.imDbRating}</p>
+                </div>
+                <button>
+                  <StarBorderIcon />
+                </button>
+              </div>
+              <div className="title">
+                <h4>{e.title}</h4>
+              </div>
+              <button className="posterBtn">
+                <div className="ratingT text">
+                  <AddIcon />
+                  <p>Watch</p>
+                </div>
+              </button>
+              <div className="rating">
+                <button
+                  className="ratingT"
+                  onClick={() => {
+                    //   getMovieData(e.id);
+                  }}
+                >
+                  <PlayArrowIcon />
+                  <p>Trailer</p>
+                </button>
+                <InfoOutlinedIcon />
+                {/* <iframe
+                width={300}
+                height={300}
+                src={movieData.videoUrl}
+              ></iframe> */}
+              </div>
+            </div>
+          </div>
+        ))}

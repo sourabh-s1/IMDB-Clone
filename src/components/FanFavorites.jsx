@@ -7,26 +7,28 @@ import StarIcon from "@mui/icons-material/Star";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import AddIcon from "@mui/icons-material/Add";
+import { API_KEY, API_URL } from "../Config/config";
 
 export const FanFavorites = () => {
   const [data, setData] = useState([]);
   const [movieData, setMovieData] = useState([]);
   const [page, setPage] = useState(1);
   const [count, setCount] = useState();
+
   let limit = 6;
   useEffect(() => {
     getData(page);
   }, [page]);
   function getMovieData(id) {
     axios
-      .get(`https://imdb-api.com/en/API/YouTubeTrailer/k_q6wh5gi6/${id}`)
+      .get(`${API_URL}/Title/${API_KEY}/${id}/FullActor,Posters,Trailer`)
       .then((res) => {
         setMovieData(res);
       });
   }
   function getData(page = 1) {
     axios
-      .get(`http://localhost:3001/items1?_page=${page}&_limit=${limit}`)
+      .get(`https://secure-tor-86460.herokuapp.com/MostPopularMovies?_page=${page}&_limit=${limit}`)
       .then((res) => {
         setData(res.data);
         setCount(res.headers["x-total-count"] - page * limit);

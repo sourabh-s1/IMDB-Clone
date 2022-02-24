@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import {Link} from 'react-router-dom';
 import "../style.css";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
@@ -8,30 +9,45 @@ import StarBorderIcon from "@mui/icons-material/StarBorder";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import AddIcon from "@mui/icons-material/Add";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+import { API_KEY, API_URL } from "../Config/config";
+
 
 export const TopPicks = () => {
   const [data, setData] = useState([]);
+  const [tempdata,setTempdata] = useState([]);
   const [movieData, setMovieData] = useState([]);
   const [page, setPage] = useState(1);
   const [count, setCount] = useState();
+
   let limit = 6;
   useEffect(() => {
-    getData(page);
+    getData(page)
+    //dataNew(page);
+    //console.log("tempdata",tempdata);
   }, [page]);
   function getMovieData(id) {
     axios
-      .get(`https://imdb-api.com/en/API/YouTubeTrailer/k_q6wh5gi6/${id}`)
+      .get(`${API_URL}/Title/${API_KEY}/${id}`)
       .then((res) => {
         setMovieData(res);
       });
   }
   function getData(page = 1) {
     axios
-      .get(`http://localhost:3001/items?_page=${page}&_limit=${limit}`)
+      .get(`https://secure-tor-86460.herokuapp.com/Top250Movies?_page=${page}&_limit=${limit}`)
       .then((res) => {
         setData(res.data);
-        setCount(res.headers["x-total-count"] - page * limit);
+        setCount(res.data.items.length - page * limit);
+
+
+        console.log(data);
       });
+  }
+  function dataNew(page) {
+    setTempdata([])
+    for(let i = ((page * limit)-limit); i <= page*limit; i++ ){
+        tempdata.push(data[i]);
+    }
   }
   return (
     <div id="dataContainer">
@@ -42,7 +58,8 @@ export const TopPicks = () => {
         <p>TV shows and movies just fro you</p>
       </div>
       <div className="cardContainer">
-        {data.map((e, i) => (
+      {data.map((e, i) => (
+
           <div className="dataCard" key={i}>
             <div className="poster">
               <img src={e.image} />
@@ -85,6 +102,7 @@ export const TopPicks = () => {
               </div>
             </div>
           </div>
+          
         ))}
       </div>
 
