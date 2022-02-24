@@ -1,0 +1,178 @@
+html, body {
+    background-color: #000;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.container {
+    border: 1px solid white;
+    display: flex;
+}
+
+.crousel {
+    display: block;
+}
+
+.crousel_img {
+    width: 440px;
+    height: 250px;
+}
+
+.editor_img {
+    width: 140px;
+    height: 230px;
+}
+
+.original_img {
+    width: 440px;
+    height: 250px;
+}
+
+.editor_txt {
+    text-align: left;
+    margin-left: 4%;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.original_txt {
+    text-align: left;
+    margin-top: 5px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.details {
+    display: block;
+}
+
+.head {
+    text-align: left;
+    margin-left: 3%;
+    border-left: 5px solid #FFA000;
+    border-radius: 3px;
+    padding: 0 6px;
+}
+
+.head_box {
+    text-align: left;
+    margin-left: 9%;
+    border-left: 5px solid #FFA000;
+    border-radius: 3px;
+    padding: 0 6px;
+}
+
+.control {
+    background-color: #000;
+    color: #fff;
+    height: 70px;
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -70px;
+}
+
+.control:hover {
+    color: #FFA000;
+}
+
+.topbox {
+    display: grid;
+    grid-template-columns: repeat(2, 90%);
+    text-align: left;
+    color: #fff;
+    margin-left: 6%;
+}
+
+.card {
+    /* border: 1px solid white; */
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
+.card i {
+    margin: 0 5px;
+}
+
+ol {
+    column-count: 2;
+}
+
+.h4 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.p {
+    margin: 0;
+    color: rgb(187, 184, 184);
+    font-weight: bold;
+    text-align: left;
+}
+
+.play_btn {
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.fa {
+    font-size: 48px;
+}
+
+.edit_i {
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.play_txt {
+    position: absolute;
+    margin-top: 218px;
+    margin-left: 42px;
+    color: #fff;
+}
+
+.caption {
+    position: absolute;
+    margin-top: 198px;
+    margin-left: 67px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.crousel:hover .fa {
+    color: #FFA000;
+}
+
+.news_div {
+    display: flex;
+}
+
+.news_img {
+    width: 200px;
+    height: 150px;
+}
+
+.news_txt {
+    font-size: 20px;
+    margin: 0;
+    margin-left: 20px;
+    text-align: left;
+}
