@@ -15,7 +15,7 @@ export function Navbar() {
         borderBottomRightRadius:"8px",
         marginLeft: "-1.5px",
         marginBottom: "5px",
-        padding:"15px"
+        padding:"-2px"
     } ;
 
     const select = {
