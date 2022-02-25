@@ -50,7 +50,7 @@ export function Navbar() {
 
                 <div id="nav_select">
                     <div>
-                        <select style={select} name="" id=""></select>
+                        <select style={select} name="" id=""> <option>All</option></select>
                     </div>
 
                     <div>
