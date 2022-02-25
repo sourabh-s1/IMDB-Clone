@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+
 import "../style.css";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
@@ -9,7 +10,7 @@ import StarBorderIcon from "@mui/icons-material/StarBorder";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import AddIcon from "@mui/icons-material/Add";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
-import { API_KEY, API_URL } from "../Config/config";
+import { API_KEY, API_URL } from "../Config/config"
 import { style } from "@mui/system";
 
 export const TopPicks = () => {
@@ -23,6 +24,7 @@ export const TopPicks = () => {
   let limit = 6;
   useEffect(() => {
     getData(page);
+
     //dataNew(page);
     //console.log("tempdata",tempdata);
   }, [page]);
@@ -127,6 +129,7 @@ export const TopPicks = () => {
               </div>
             </div>
           </div>
+
         ))}
       </div>
 

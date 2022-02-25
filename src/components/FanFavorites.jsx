@@ -70,6 +70,7 @@ export const FanFavorites = () => {
               <div className="poster">
                 <img src={e.image} />
               </div>
+
             </Link>
             <div className="posterData">
               <div className="rating">
