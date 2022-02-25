@@ -1,34 +1,37 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import ItemsCarousel from "react-items-carousel";
-import "./style.css";
+import "./explore.css";
 import { useEffect } from "react";
 import ChevronRightOutlinedIcon from '@mui/icons-material/ChevronRightOutlined';
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
-function Crousel() {
+function Editor() {
     const [active, setaAtive] = useState(0);
     const [activeItemIndex, setActiveItemIndex] = useState(0);
     const [coming, setcoming] = useState([]);
-    const chevronWidth = 90;
+    const chevronWidth = 120;
 
     useEffect(() => {
         getData();
     }, [])
 
     const getData = () => {
-        fetch("http://localhost:3001/editor")
+        fetch("https://secure-tor-86460.herokuapp.com/Editor")
             .then((res) => res.json())
             .then((data) => {
-                console.log(data)
-
                 setcoming(data)
+                //setcoming(data)
             })
     }
 
     return (
         <div>
             <div className="head vl">
-                <h2 >Editor Picks </h2>
+                <h1 >Editor's Picks <ArrowForwardIosIcon
+              // sx={{ color: "#F5C519" }}
+              className="arrowColor"
+            /></h1>
             </div>
             <div style={{ padding: `0 ${chevronWidth}px` }}>
                 <ItemsCarousel
@@ -36,12 +39,12 @@ function Crousel() {
                     activeItemIndex={activeItemIndex}
                     numberOfCards={3}
                     gutter={10}
-                    leftChevron={<button className="control">{'<'}</button>}
-                    rightChevron={<button className="control">{'>'}</button>}
+                    leftChevron={<button className="control-l">{'<'}</button>}
+                    rightChevron={<button className="control-r">{'>'}</button>}
                     outsideChevron
                     chevronWidth={chevronWidth}
                 >
-                    {coming.map((e) => (
+                    {coming ? coming.map((e) => (
                         <div>
                             <a href={e.link} target="_blank">
                                 <div className="crousel" style={{ width: 440, height: 300, background: '#000' }}>
@@ -56,11 +59,11 @@ function Crousel() {
                                 </div>
                             </a>
                         </div>
-                    ))}
+                    )) : null }
                 </ItemsCarousel>
             </div>
         </div>
     )
 }
 
-export default Crousel;
+export default Editor;

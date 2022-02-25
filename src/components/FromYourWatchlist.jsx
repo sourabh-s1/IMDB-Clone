@@ -10,23 +10,11 @@ import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import AddIcon from "@mui/icons-material/Add";
 import { API_KEY, API_URL } from "../Config/config";
 
-export const FanFavorites = () => {
+export const FromYorWatchlist = () => {
   const [data, setData] = useState([]);
   const [movieData, setMovieData] = useState([]);
   const [page, setPage] = useState(1);
   const [count, setCount] = useState();
-
-  function addToWishlist(data) {
-    console.log("data", data);
-    axios
-      .post("https://secure-tor-86460.herokuapp.com/Wishlist", { data })
-      .then(function (response) {
-        console.log(response);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-  }
 
   let limit = 6;
   useEffect(() => {
@@ -42,7 +30,7 @@ export const FanFavorites = () => {
   function getData(page = 1) {
     axios
       .get(
-        `https://secure-tor-86460.herokuapp.com/MostPopularMovies?_page=${page}&_limit=${limit}`
+        `https://secure-tor-86460.herokuapp.com/Wishlist?_page=${page}&_limit=${limit}`
       )
       .then((res) => {
         setData(res.data);
@@ -54,14 +42,13 @@ export const FanFavorites = () => {
       <div>
         <div className="head">
           <h1>
-            Fan favorites{" "}
+            From Your Watchlist
             <ArrowForwardIosIcon
               // sx={{ color: "#F5C519" }}
               className="arrowColor"
             />
           </h1>
         </div>
-        <p className="left">This week's top TV and movies</p>
       </div>
       <div className="cardContainer left">
         {data.map((e, i) => (
@@ -70,7 +57,6 @@ export const FanFavorites = () => {
               <div className="poster">
                 <img src={e.image} />
               </div>
-
             </Link>
             <div className="posterData">
               <div className="rating">
@@ -80,10 +66,9 @@ export const FanFavorites = () => {
                 </div>
                 <button
                   className="startBtn"
-                  onClick={() => {
-                    console.log("e", e);
-                    addToWishlist(e);
-                  }}
+                  //   onClick={() => {
+                  //     addToWishlist(e);
+                  //   }}
                 >
                   <StarBorderIcon sx={{ color: "#5478A7" }} className="start" />
                 </button>

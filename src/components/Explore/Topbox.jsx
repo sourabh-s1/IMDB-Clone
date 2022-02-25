@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import './style.css';
+import './explore.css';
 import * as React from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import 'font-awesome/css/font-awesome.min.css';
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+//import 'font-awesome/css/font-awesome.min.css';
 
 export const TopBox = () => {
 
@@ -21,19 +22,28 @@ export const TopBox = () => {
     }, [])
 
     const getData = () => {
-        fetch("http://localhost:3001/box")
+        fetch("https://secure-tor-86460.herokuapp.com/BoxOffice")
             .then((res) => res.json())
             .then((data) => {
-                console.log(data)
+                //console.log("data.editor",data)
+                //{
+                //    data.map((e) => {
+                //        setbox(e.box);
+                //    })
+                //}
+                setbox(data);
+                //setcoming(data)
 
-                setbox(data)
             })
     }
 
     return (
         <div>
             <div className="head_box vl">
-                <h2 >Top Box office</h2>
+                <h1 >Top Box office <ArrowForwardIosIcon
+              // sx={{ color: "#F5C519" }}
+              className="arrowColor"
+            /></h1>
             </div>
             <ThemeProvider theme={darkTheme}>
                 <div className="topbox">

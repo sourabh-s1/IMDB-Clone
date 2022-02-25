@@ -10,12 +10,13 @@
 }
 
 .cardContainer {
-  width: 100%;
+  width: 90%;
   display: flex;
   gap: 1%;
 }
 .dataCard {
-  border: violet solid 1px;
+  /*border: violet solid 1px;*/
+  background-color: #1a1a1a;
 }
 .poster {
   width: 100%;
@@ -39,8 +40,7 @@
   margin: 2px;
   font-size: 20px;
 }
-.arow{
-
+.arow {
   margin-top: 2px;
 }
 .rating > button {
@@ -62,8 +62,8 @@
   margin: 5% 0%;
   padding: 3%;
   width: 100%;
-  color: blue;
-  background-color: gray;
+  color: #5478a7;
+  background-color: #3c3c3c;
 }
 
 .text {
@@ -71,11 +71,71 @@
 }
 
 #bck {
+  border: 2px solid white;
+  height: 60px;
+  color: #fff;
+  width: 40px;
   position: relative;
   top: -330px;
+  right: -85px;
+  background-color: rgba(0, 0, 0, 0.438);
+  font-weight: bold;
+  border-radius: 5px;
 }
 #fwd {
+  border: 2px solid white;
+  color: #fff;
+  height: 60px;
+  width: 40px;
   position: relative;
   top: -330px;
-  right: -1200px;
+  right: -1330px;
+  background-color: rgba(0, 0, 0, 0.438);
+  font-weight: bold;
+  border-radius: 5px;
+}
+#bck:hover, #fwd:hover{
+  color: #FFA000;
+}
+
+.head {
+  border-left: 5px solid #ffa000;
+  border-radius: 3px;
+  margin-left: 8%;
+}
+.left{
+  margin-left: 8%;
+}
+
+.leftMargin {
+  margin-left: 40px;
+}
+
+.startBtn:hover {
+  background-color: #3c3c3c;
+}
+.startBtn {
+  background-color: #1a1a1a;
+}
+.start:hover {
+  color: #5478a7;
+}
+
+.trailerBtn {
+  color: white;
+  background-color: #1a1a1a;
+}
+
+.trailerBtn:hover {
+  background-color: #3c3c3c;
+}
+button {
+  border-radius: 5%;
+}
+
+.arrowColor {
+  color: white;
+}
+.arrowColor:hover {
+  color: #ffa000;
 }
