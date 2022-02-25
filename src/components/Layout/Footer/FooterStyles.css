@@ -1,10 +1,9 @@
 #footer-box {
     background-color: black;
    box-sizing: border-box;
-    color: white;
-   
-   bottom:0;
-   width:100%;
+    color: white;  
+    bottom:0;
+    width:100%;
 }
 
 
@@ -63,5 +62,10 @@
     
 }
 #last-line{
-    margin-top: 12px;
+    margin-top: 40px;
+    width: 30%;
+    margin: auto;
+   
+    padding-top: 15px;
+    text-align: center;
 }
