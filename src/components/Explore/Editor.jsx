@@ -4,6 +4,7 @@ import ItemsCarousel from "react-items-carousel";
 import "./explore.css";
 import { useEffect } from "react";
 import ChevronRightOutlinedIcon from '@mui/icons-material/ChevronRightOutlined';
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 function Editor() {
     const [active, setaAtive] = useState(0);
@@ -27,7 +28,10 @@ function Editor() {
     return (
         <div>
             <div className="head vl">
-                <h2 >Editor's Picks </h2>
+                <h1 >Editor's Picks <ArrowForwardIosIcon
+              // sx={{ color: "#F5C519" }}
+              className="arrowColor"
+            /></h1>
             </div>
             <div style={{ padding: `0 ${chevronWidth}px` }}>
                 <ItemsCarousel

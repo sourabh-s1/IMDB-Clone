@@ -22,6 +22,9 @@ a:hover {
     display: block;
     margin: 20px 0;
 }
+#featured{
+    margin-left: -22%;
+}
 
 .crousel_img {
     width: 400px;
@@ -92,6 +95,18 @@ a:hover {
     margin-top: -70px;
     margin-right: -130px;
 }
+.control-fl{
+    background-color: rgba(0, 0, 0, 0.438);
+    color: #fff;
+    height: 60px;
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -70px;
+    margin-right: -430px;
+}
 
 .control-r{
     background-color: rgba(0, 0, 0, 0.438);
@@ -104,6 +119,18 @@ a:hover {
     font-weight: bold;
     margin-top: -70px;
     margin-left: -130px;
+}
+.control-fr{
+    background-color: rgba(0, 0, 0, 0.438);
+    color: #fff;
+    height: 60px;
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -70px;
+    margin-left: -530px;
 }
 
 .control-l:hover, .control-r:hover {
@@ -199,3 +226,4 @@ ol {
     margin-left: 20px;
     text-align: left;
 }
+

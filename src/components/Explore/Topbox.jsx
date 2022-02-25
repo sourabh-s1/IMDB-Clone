@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import './explore.css';
 import * as React from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 //import 'font-awesome/css/font-awesome.min.css';
 
 export const TopBox = () => {
@@ -39,7 +40,10 @@ export const TopBox = () => {
     return (
         <div>
             <div className="head_box vl">
-                <h2 >Top Box office</h2>
+                <h1 >Top Box office <ArrowForwardIosIcon
+              // sx={{ color: "#F5C519" }}
+              className="arrowColor"
+            /></h1>
             </div>
             <ThemeProvider theme={darkTheme}>
                 <div className="topbox">
