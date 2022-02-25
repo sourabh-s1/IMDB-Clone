@@ -8,72 +8,47 @@ import StarIcon from "@mui/icons-material/Star";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import AddIcon from "@mui/icons-material/Add";
-import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import { API_KEY, API_URL } from "../Config/config";
-import { style } from "@mui/system";
 
-export const TopPicks = () => {
+export const FromYorWatchlist = () => {
   const [data, setData] = useState([]);
-  const [tempdata, setTempdata] = useState([]);
   const [movieData, setMovieData] = useState([]);
   const [page, setPage] = useState(1);
   const [count, setCount] = useState();
-  const [wishlist, setWishlist] = useState([]);
 
   let limit = 6;
   useEffect(() => {
     getData(page);
-    //dataNew(page);
-    //console.log("tempdata",tempdata);
   }, [page]);
   function getMovieData(id) {
-    axios.get(`${API_URL}/Title/${API_KEY}/${id}`).then((res) => {
-      setMovieData(res);
-    });
+    axios
+      .get(`${API_URL}/Title/${API_KEY}/${id}/FullActor,Posters,Trailer`)
+      .then((res) => {
+        setMovieData(res);
+      });
   }
   function getData(page = 1) {
     axios
       .get(
-        `https://secure-tor-86460.herokuapp.com/Top250Movies?_page=${page}&_limit=${limit}`
+        `https://secure-tor-86460.herokuapp.com/Wishlist?_page=${page}&_limit=${limit}`
       )
       .then((res) => {
         setData(res.data);
-        setCount(res.data.items.length - page * limit);
-
-        console.log(data);
+        setCount(res.headers["x-total-count"] - page * limit);
       });
-  }
-  function addToWishlist(data) {
-    // console.log("data", data);
-    axios
-      .post("https://secure-tor-86460.herokuapp.com/Wishlist", { data })
-      .then(function (response) {
-        console.log(response);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-  }
-
-  function dataNew(page) {
-    setTempdata([]);
-    for (let i = page * limit - limit; i <= page * limit; i++) {
-      tempdata.push(data[i]);
-    }
   }
   return (
     <div id="dataContainer">
       <div>
         <div className="head">
           <h1>
-            Top picks{" "}
+            From Yor Watchlist
             <ArrowForwardIosIcon
               // sx={{ color: "#F5C519" }}
               className="arrowColor"
             />
           </h1>
         </div>
-        <p className="leftMargin">TV shows and movies just fro you</p>
       </div>
       <div className="cardContainer leftMargin">
         {data.map((e, i) => (
@@ -91,12 +66,11 @@ export const TopPicks = () => {
                 </div>
                 <button
                   className="startBtn"
-                  onClick={() => {
-                    addToWishlist(e);
-                    alert("Movie is successfully added to watchlist");
-                  }}
+                  //   onClick={() => {
+                  //     addToWishlist(e);
+                  //   }}
                 >
-                  <StarBorderIcon sx={{ color: "#5478A7" }} className="star" />
+                  <StarBorderIcon sx={{ color: "#5478A7" }} className="start" />
                 </button>
               </div>
               <div className="title">
@@ -108,7 +82,7 @@ export const TopPicks = () => {
                   <p>Watch</p>
                 </div>
               </button>
-              <div className="rating">
+              <div className="rating text">
                 <button
                   className="ratingT trailerBtn"
                   onClick={() => {
@@ -118,7 +92,6 @@ export const TopPicks = () => {
                   <PlayArrowIcon />
                   <p>Trailer</p>
                 </button>
-                <InfoOutlinedIcon />
                 {/* <iframe
                 width={300}
                 height={300}
@@ -131,10 +104,10 @@ export const TopPicks = () => {
       </div>
 
       <button id="bck" disabled={page === 1} onClick={() => setPage(page - 1)}>
-        <ArrowBackIosIcon className="arrowColor" />
+        <ArrowBackIosIcon />
       </button>
       <button id="fwd" disabled={count <= 0} onClick={() => setPage(page + 1)}>
-        <ArrowForwardIosIcon className="arrowColor" />
+        <ArrowForwardIosIcon />
       </button>
     </div>
   );

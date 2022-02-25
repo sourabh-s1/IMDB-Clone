@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 import "../style.css";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
@@ -17,14 +17,15 @@ export const FanFavorites = () => {
   const [count, setCount] = useState();
 
   function addToWishlist(data) {
-    console.log("data",data);
-    axios.post('https://secure-tor-86460.herokuapp.com/Wishlist', {data} )
-    .then(function (response) {
-      console.log(response);
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
+    console.log("data", data);
+    axios
+      .post("https://secure-tor-86460.herokuapp.com/Wishlist", { data })
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   }
 
   let limit = 6;
@@ -40,7 +41,9 @@ export const FanFavorites = () => {
   }
   function getData(page = 1) {
     axios
-      .get(`https://secure-tor-86460.herokuapp.com/MostPopularMovies?_page=${page}&_limit=${limit}`)
+      .get(
+        `https://secure-tor-86460.herokuapp.com/MostPopularMovies?_page=${page}&_limit=${limit}`
+      )
       .then((res) => {
         setData(res.data);
         setCount(res.headers["x-total-count"] - page * limit);
@@ -49,27 +52,39 @@ export const FanFavorites = () => {
   return (
     <div id="dataContainer">
       <div>
-        <h1>
-          | Fan faorites <ArrowForwardIosIcon />
-        </h1>
-        <p>This week's top TV and movies</p>
+        <div className="head">
+          <h1>
+            Fan faorites{" "}
+            <ArrowForwardIosIcon
+              // sx={{ color: "#F5C519" }}
+              className="arrowColor"
+            />
+          </h1>
+        </div>
+        <p className="leftMargin">This week's top TV and movies</p>
       </div>
-      <div className="cardContainer">
+      <div className="cardContainer leftMargin">
         {data.map((e, i) => (
           <div className="dataCard" key={i}>
-            <Link to={{ pathname: `/${e.id}`}}>
-            <div className="poster">
-              <img src={e.image} />
-            </div>
+            <Link to={{ pathname: `/${e.id}` }}>
+              <div className="poster">
+                <img src={e.image} />
+              </div>
             </Link>
             <div className="posterData">
               <div className="rating">
                 <div className="ratingT">
-                  <StarIcon sx={{ color: "#ffc400" }} />
+                  <StarIcon sx={{ color: "#F5C519" }} />
                   <p>{e.imDbRating}</p>
                 </div>
-                <button onClick={() => {addToWishlist(e)}}>
-                  <StarBorderIcon />
+                <button
+                  className="startBtn"
+                  onClick={() => {
+                    console.log("e", e);
+                    addToWishlist(e);
+                  }}
+                >
+                  <StarBorderIcon sx={{ color: "#5478A7" }} className="start" />
                 </button>
               </div>
               <div className="title">
@@ -83,7 +98,7 @@ export const FanFavorites = () => {
               </button>
               <div className="rating text">
                 <button
-                  className="ratingT"
+                  className="ratingT trailerBtn"
                   onClick={() => {
                     //   getMovieData(e.id);
                   }}
