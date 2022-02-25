@@ -10,7 +10,7 @@
 }
 
 .cardContainer {
-  width: 100%;
+  width: 90%;
   display: flex;
   gap: 1%;
 }
@@ -71,29 +71,40 @@
 }
 
 #bck {
-  border: 1px solid white;
-  height: 50px;
-  width: 50px;
+  border: 2px solid white;
+  height: 60px;
+  color: #fff;
+  width: 40px;
   position: relative;
   top: -330px;
-  right: -25px;
-  background-color: darkslategray;
-  opacity: 0.4;
+  right: -85px;
+  background-color: rgba(0, 0, 0, 0.438);
+  font-weight: bold;
+  border-radius: 5px;
 }
 #fwd {
-  border: 1px solid white;
-  height: 50px;
-  width: 50px;
+  border: 2px solid white;
+  color: #fff;
+  height: 60px;
+  width: 40px;
   position: relative;
   top: -330px;
-  right: -1230px;
-  background-color: darkslategray;
-  opacity: 0.4;
+  right: -1330px;
+  background-color: rgba(0, 0, 0, 0.438);
+  font-weight: bold;
+  border-radius: 5px;
+}
+#bck:hover, #fwd:hover{
+  color: #FFA000;
 }
 
 .head {
   border-left: 5px solid #ffa000;
   border-radius: 3px;
+  margin-left: 8%;
+}
+.left{
+  margin-left: 8%;
 }
 
 .leftMargin {

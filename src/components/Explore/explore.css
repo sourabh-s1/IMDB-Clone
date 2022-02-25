@@ -20,20 +20,21 @@ a:hover {
 
 .crousel {
     display: block;
+    margin: 20px 0;
 }
 
 .crousel_img {
-    width: 240px;
-    height: 350px;
+    width: 400px;
+    height: 200px;
 }
 
 .editor_img {
-    width: 140px;
+    width: 135px;
     height: 230px;
 }
 
 .original_img {
-    width: 440px;
+    width: 400px;
     height: 250px;
 }
 
@@ -46,9 +47,10 @@ a:hover {
 
 .original_txt {
     text-align: left;
-    margin-top: 5px;
+    margin: 5px;
     font-size: 17px;
     color: #fff;
+
 }
 
 .details {
@@ -57,33 +59,54 @@ a:hover {
 
 .head {
     text-align: left;
-    margin-left: 3%;
+    margin-left: 8%;
+    margin-top: 40px;
     border-left: 5px solid #FFA000;
     border-radius: 3px;
     padding: 0 6px;
 }
-
+.head-p{
+    text-align: left;
+    margin-left: 8%;
+    padding: 0 6px;
+    color: rgb(187, 184, 184);
+}
 .head_box {
     text-align: left;
-    margin-left: 9%;
+    margin-left: 8%;
+    margin-top: 40px;
     border-left: 5px solid #FFA000;
     border-radius: 3px;
     padding: 0 6px;
 }
 
-.control {
-    background-color: #000;
+.control-l{
+    background-color: rgba(0, 0, 0, 0.438);
     color: #fff;
-    height: 70px;
+    height: 60px;
     width: 40px;
     border: 2px solid #fff;
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
     margin-top: -70px;
+    margin-right: -130px;
 }
 
-.control:hover {
+.control-r{
+    background-color: rgba(0, 0, 0, 0.438);
+    color: #fff;
+    height: 60px;
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -70px;
+    margin-left: -130px;
+}
+
+.control-l:hover, .control-r:hover {
     color: #FFA000;
 }
 
@@ -166,7 +189,7 @@ ol {
 }
 
 .news_img {
-    width: 200px;
+    width: 180px;
     height: 150px;
 }
 

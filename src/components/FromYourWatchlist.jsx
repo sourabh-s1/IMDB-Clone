@@ -42,7 +42,7 @@ export const FromYorWatchlist = () => {
       <div>
         <div className="head">
           <h1>
-            From Yor Watchlist
+            From Your Watchlist
             <ArrowForwardIosIcon
               // sx={{ color: "#F5C519" }}
               className="arrowColor"
@@ -50,7 +50,7 @@ export const FromYorWatchlist = () => {
           </h1>
         </div>
       </div>
-      <div className="cardContainer leftMargin">
+      <div className="cardContainer left">
         {data.map((e, i) => (
           <div className="dataCard" key={i}>
             <Link to={{ pathname: `/${e.id}` }}>

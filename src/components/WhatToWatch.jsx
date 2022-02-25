@@ -13,7 +13,7 @@ import { TopBox } from "./Explore/Topbox";
 export const WhatToWatch = () => {
   return (
     <div>
-      <div className="leftMargin">
+      <div className="left">
         <h1 style={{ color: "#F5C519" }}>What to watch</h1>
         <Link className="ratingT" to="/">
           <p>Get more recommendations </p>
@@ -23,11 +23,22 @@ export const WhatToWatch = () => {
       <TopPicks />
       <FanFavorites />
       <FromYorWatchlist />
+      <div className="left">
+      <h1 style={{ color: "#F5C519" }}>Exclusive Videos</h1>
+      </div>
+      <Originals />
+      <div className="left">
+      <h1 style={{ color: "#F5C519" }}>Explore Movies and TV Shows</h1>
+      </div>
+      <TopBox />
       <Crousel />
+      <div className="left">
+      <h1 style={{ color: "#F5C519" }}>More to Explore</h1>
+      </div>
       <Editor />
       <News />
-      <Originals />
-      <TopBox />
+      
+     
     </div>
   );
 };

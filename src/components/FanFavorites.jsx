@@ -54,16 +54,16 @@ export const FanFavorites = () => {
       <div>
         <div className="head">
           <h1>
-            Fan faorites{" "}
+            Fan favorites{" "}
             <ArrowForwardIosIcon
               // sx={{ color: "#F5C519" }}
               className="arrowColor"
             />
           </h1>
         </div>
-        <p className="leftMargin">This week's top TV and movies</p>
+        <p className="left">This week's top TV and movies</p>
       </div>
-      <div className="cardContainer leftMargin">
+      <div className="cardContainer left">
         {data.map((e, i) => (
           <div className="dataCard" key={i}>
             <Link to={{ pathname: `/${e.id}` }}>

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import './style.css';
+import './explore.css';
 import * as React from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 //import 'font-awesome/css/font-awesome.min.css';

@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import ItemsCarousel from "react-items-carousel";
-import "./style.css";
+import "./explore.css";
 import { useEffect } from "react";
+import 'font-awesome/css/font-awesome.min.css';
 import ChevronRightOutlinedIcon from '@mui/icons-material/ChevronRightOutlined';
 
 function Originals() {
     const [active, setaAtive] = useState(0);
     const [activeItemIndex, setActiveItemIndex] = useState(0);
     const [coming, setcoming] = useState([]);
-    const chevronWidth = 70;
+    const chevronWidth = 120;
 
     useEffect(() => {
         getData();
@@ -28,14 +29,15 @@ function Originals() {
             <div className="head vl">
                 <h2 >IMDb Originals </h2>
             </div>
+            <p className="head-p">Celebrity interviews, trending entertainment stories, and expert analysis</p>
             <div style={{ padding: `0 ${chevronWidth}px` }}>
                 <ItemsCarousel
                     requestToChangeActive={setActiveItemIndex}
                     activeItemIndex={activeItemIndex}
                     numberOfCards={3}
                     gutter={10}
-                    leftChevron={<button className="control">{'<'}</button>}
-                    rightChevron={<button className="control">{'>'}</button>}
+                    leftChevron={<button className="control-l">{'<'}</button>}
+                    rightChevron={<button className="control-r">{'>'}</button>}
                     outsideChevron
                     chevronWidth={chevronWidth}
                 >

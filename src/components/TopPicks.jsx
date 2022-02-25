@@ -73,9 +73,9 @@ export const TopPicks = () => {
             />
           </h1>
         </div>
-        <p className="leftMargin">TV shows and movies just fro you</p>
+        <p className="left">TV shows and movies just for you</p>
       </div>
-      <div className="cardContainer leftMargin">
+      <div className="cardContainer left">
         {data.map((e, i) => (
           <div className="dataCard" key={i}>
             <Link to={{ pathname: `/${e.id}` }}>
