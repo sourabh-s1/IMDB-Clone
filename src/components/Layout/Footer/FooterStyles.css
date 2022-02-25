@@ -1,0 +1,67 @@
+#footer-box {
+    background-color: black;
+   box-sizing: border-box;
+    color: white;
+    position:absolute;
+   bottom:0;
+   width:100%;
+}
+
+
+#footer-icon {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+   width: 30%;
+   margin: auto;
+    padding: 30px;
+}
+
+.icon-margin{
+    margin-left: 40px;
+    opacity: 1.5;
+}
+
+.icon-margin :hover{
+    opacity: 0.75;
+}
+
+#second-line{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    width: 60%;
+    margin: auto;      
+}
+ 
+
+#second-line > div{
+    margin: 10px;
+}
+#second-line a {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+#third-line{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    width: 65%;
+    margin: auto;
+    margin-top: 10px;
+       
+}
+
+#third-line > div{
+    margin-left: 30px;
+}
+#third-line
+    a {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+#last-line{
+    margin-top: 12px;
+}
