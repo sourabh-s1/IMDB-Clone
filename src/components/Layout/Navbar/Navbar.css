@@ -6,8 +6,24 @@ a{
     text-decoration : none;
     color: white;
     }
-    
+#input-result {
+    width: 45%;
+    margin: -14px 0px 0px 320px;
+}
 
+.autocomplete{
+    width:100%;
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,3);
+}
+.autocompleteItems{
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
 #nav_box {
     display: flex;
     flex-direction: row;
@@ -99,3 +115,25 @@ a{
     font-weight: 550;
     margin-right: 8px;
 }
+
+.result-div-main {
+    display: flex;
+    gap: 2%;
+
+ 
+   
+
+}
+
+
+
+.result-div-main > div img {
+     
+    width: 45px;
+}
+
+.result-div-main:hover {
+    background-color: #c5bcbc;
+    color: black;
+}
+
