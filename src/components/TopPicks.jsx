@@ -48,7 +48,7 @@ export const TopPicks = () => {
   function addToWishlist(data) {
     // console.log("data", data);
     axios
-      .post("https://secure-tor-86460.herokuapp.com/Wishlist", { data })
+      .post("https://secure-tor-86460.herokuapp.com/Wishlist",  data )
       .then(function (response) {
         console.log(response);
       })
