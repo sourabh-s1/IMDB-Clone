@@ -19,7 +19,7 @@ export const FanFavorites = () => {
   function addToWishlist(data) {
     console.log("data", data);
     axios
-      .post("https://secure-tor-86460.herokuapp.com/Wishlist", { data })
+      .post("https://secure-tor-86460.herokuapp.com/Wishlist",  data )
       .then(function (response) {
         console.log(response);
       })
@@ -107,11 +107,11 @@ export const FanFavorites = () => {
                   <PlayArrowIcon />
                   <p>Trailer</p>
                 </button>
-                {/* <iframe
+                {/*<iframe
                 width={300}
                 height={300}
                 src={movieData.videoUrl}
-              ></iframe> */}
+              ></iframe>*/}
               </div>
             </div>
           </div>
