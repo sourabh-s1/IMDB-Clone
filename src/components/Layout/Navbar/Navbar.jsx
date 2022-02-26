@@ -27,7 +27,7 @@ export function Navbar() {
 
     return(
         <div>
-            
+
             <div id="nav_box">
                 <div id="nav_logo" >
                     <img src="https://variety.com/wp-content/uploads/2017/02/imdb1.png?w=681&h=383&crop=1" alt="" />
@@ -43,7 +43,7 @@ export function Navbar() {
                     <div id="nav_menu">
                     <strong> Menu </strong>
                     </div>
-                 
+
                 </div>
 
 
@@ -69,7 +69,7 @@ export function Navbar() {
 
 
                 <div id="dummy_line">
-                    
+
                 </div>
 
 
@@ -84,13 +84,13 @@ export function Navbar() {
 
 
                 <div id="nav_login">
-                   <strong> Sign In </strong> 
+                   <strong> Sign In </strong>
                 </div>
 
 
                 <div id="nav_lang_box">
                     <div id="nav_lang">
-                       <strong> EN </strong> 
+                       <strong> EN </strong>
                     </div>
 
                     <div style={{cursor:'pointer'}}>
@@ -99,10 +99,11 @@ export function Navbar() {
                 </div>
 
 
-              
+
             </div>
-           
-           
+
+
         </div>
+
     );
 }
