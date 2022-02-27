@@ -22,9 +22,6 @@ a:hover {
     display: block;
     margin: 20px 0;
 }
-#featured{
-    margin-left: -22%;
-}
 
 .crousel_img {
     width: 400px;
@@ -68,12 +65,14 @@ a:hover {
     border-radius: 3px;
     padding: 0 6px;
 }
-.head-p{
+
+.head-p {
     text-align: left;
     margin-left: 8%;
     padding: 0 6px;
     color: rgb(187, 184, 184);
 }
+
 .head_box {
     text-align: left;
     margin-left: 8%;
@@ -83,7 +82,7 @@ a:hover {
     padding: 0 6px;
 }
 
-.control-l{
+.control-l {
     background-color: rgba(0, 0, 0, 0.438);
     color: #fff;
     height: 60px;
@@ -95,20 +94,8 @@ a:hover {
     margin-top: -70px;
     margin-right: -130px;
 }
-.control-fl{
-    background-color: rgba(0, 0, 0, 0.438);
-    color: #fff;
-    height: 60px;
-    width: 40px;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: -70px;
-    margin-right: -430px;
-}
 
-.control-r{
+.control-r {
     background-color: rgba(0, 0, 0, 0.438);
     color: #fff;
     height: 60px;
@@ -119,18 +106,6 @@ a:hover {
     font-weight: bold;
     margin-top: -70px;
     margin-left: -130px;
-}
-.control-fr{
-    background-color: rgba(0, 0, 0, 0.438);
-    color: #fff;
-    height: 60px;
-    width: 40px;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: -70px;
-    margin-left: -530px;
 }
 
 .control-l:hover, .control-r:hover {
@@ -226,4 +201,3 @@ ol {
     margin-left: 20px;
     text-align: left;
 }
-

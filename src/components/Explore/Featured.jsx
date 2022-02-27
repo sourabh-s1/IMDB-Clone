@@ -10,7 +10,7 @@ function Featured() {
     const [active, setaAtive] = useState(0);
     const [activeItemIndex, setActiveItemIndex] = useState(0);
     const [coming, setcoming] = useState([]);
-    const chevronWidth = 450;
+    const chevronWidth = 120;
 
     useEffect(() => {
         getData();
@@ -37,10 +37,10 @@ function Featured() {
                 <ItemsCarousel
                     requestToChangeActive={setActiveItemIndex}
                     activeItemIndex={activeItemIndex}
-                    numberOfCards={2}
+                    numberOfCards={3}
                     gutter={10}
-                    leftChevron={<button className="control-fl">{'<'}</button>}
-                    rightChevron={<button className="control-fr">{'>'}</button>}
+                    leftChevron={<button className="control-l">{'<'}</button>}
+                    rightChevron={<button className="control-r">{'>'}</button>}
                     outsideChevron
                     chevronWidth={chevronWidth}
                 >
