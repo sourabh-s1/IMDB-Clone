@@ -10,8 +10,19 @@ import News from "./Explore/News";
 import Originals from "./Explore/Originals";
 import { TopBox } from "./Explore/Topbox";
 import Featured from "./Explore/Featured"
+import { useDispatch, useSelector } from "react-redux";
+import {logoutInitiate} from "./SignIn/redux/actions"
 
 export const WhatToWatch = () => {
+  const {currentUser} = useSelector((state) => state.user);
+  const dispatch = useDispatch();
+
+  const handleAuth = () => {
+    if(currentUser){
+      dispatch(logoutInitiate());
+    }
+    };
+
   return (
     <div>
       <Featured/>
@@ -39,8 +50,8 @@ export const WhatToWatch = () => {
       </div>
       <Editor />
       <News />
-      
-     
+
+
     </div>
   );
 };

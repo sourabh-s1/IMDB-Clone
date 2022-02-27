@@ -6,6 +6,7 @@ import { IoIosMenu } from 'react-icons/io';
 import { BsSearch } from 'react-icons/bs';
 import { BsFillBookmarkPlusFill } from 'react-icons/bs';
 import { BsFillCaretDownFill } from 'react-icons/bs';
+import {Link} from 'react-router-dom'
 
 export function Navbar() {
 
@@ -54,10 +55,11 @@ export function Navbar() {
         <div>
 
             <div id="nav_box">
+                <Link to="/">
                 <div id="nav_logo" >
                     <img src="https://variety.com/wp-content/uploads/2017/02/imdb1.png?w=681&h=383&crop=1" alt="" />
                 </div>
-
+                </Link>
 
                 <div id="nav_menu_box">
 
@@ -109,7 +111,8 @@ export function Navbar() {
 
 
                 <div id="nav_login">
-                    <strong> Sign In </strong>
+
+                    <Link to="login"> Sign In </Link>
                 </div>
 
 
@@ -138,12 +141,12 @@ export function Navbar() {
                                     <div id={`result-div1`}>{el.title} <br/>
                                               {el.description}
                                     </div>
-                                   
+
                                 </div>
                             </div>
                         )}
-                        
-    
+
+
                     </div>
                 }
 
