@@ -45,13 +45,10 @@ useEffect(()=>{
   return (
     <div>
 
-       <div className="logo">
-        <img  width="5%"src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg" alt=""/>
-      </div>
-
-        <div id= "register-form">
+      
+        <div id= "register-form" style={{marginTop:"20px"}}>
           <form className="form-signup" onSubmit={handleSubmit}>
-            <h1 className="h3 mb-3 font-weight-normal" style={{fontWeight:"700", textAlign:"left"}}>
+            <h1 className="h3 mb-3 font-weight-normal" style={{fontWeight:"700", textAlign:"left", color:"black"}}>
             Create Account
               </h1>
 

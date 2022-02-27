@@ -55,7 +55,7 @@ const handleFBSignIn = () => {};
 
         <div id= "logreg-forms">
           <form className="form-signin" onSubmit={handleSubmit}>
-            <h1 className="h3 mb-3 font-weight-normal" style={{textAlign:"center"}}>
+            <h1 className="h3 mb-3 font-weight-normal" id="sign" style={{color:"black"}}>
               Sign In
               </h1>
               <div className="social-login">
@@ -81,7 +81,7 @@ const handleFBSignIn = () => {};
                   </span>
                   </button>
               </div>
-              <p style={{textAlign:"center"}}>OR</p>
+              <p className="or" style={{textAlign:"center"}}>OR</p>
               <input
               type="email"
               id="inputEmail"
@@ -114,7 +114,7 @@ const handleFBSignIn = () => {};
 
                <hr></hr>
 
-              <p>Don't have an account?</p>
+              <p style={{color:"grey"}}>Don't have an account?</p>
               <Link to="/register">
               <button
               className="btn btn-primary btn-block"

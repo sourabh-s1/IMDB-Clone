@@ -4,6 +4,10 @@
   display: flex;
   background-color:white;
   height: auto;
+  color:balck;
+}
+#sign{
+  text-align: center;
 }
 
 #logreg-forms {
@@ -160,4 +164,8 @@
 .right{
   margin: 10vh auto;
   padding: 10px;
+  color:black;
+}
+.or{
+  color:black;
 }
