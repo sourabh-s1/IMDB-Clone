@@ -17,7 +17,7 @@ function Featured() {
     }, [])
 
     const getData = () => {
-        fetch("http://localhost:3001/featured")
+        fetch("https://secure-tor-86460.herokuapp.com/featured")
             .then((res) => res.json())
             .then((data) => {
                 setcoming(data)
