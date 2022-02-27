@@ -44,7 +44,7 @@ export function Navbar() {
 
     const handleChange = (event) => {
         const { value } = event.target;
-        fetch(`https://imdb-api.com/en/API/Search/k_7ba6x7la/${value}`)
+        fetch(`https://imdb-api.com/en/API/Search/k_mf6baj9v/${value}`)
             .then(res => res.json())
             .then(json => setSearch(json.results));
     };
